@@ -1,0 +1,14 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style src="menu.css" />
+	
+	<g:HTMLPanel>
+		<div class='{style.menu}'>
+			<g:Button styleName="{style.menuitem}" ui:field="homeButton"
+				text="Chiller Solutions Productivity Suite" />
+			<g:Button styleName="{style.menuitem}"
+				ui:field="documentationButton" text="Documentation" />
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

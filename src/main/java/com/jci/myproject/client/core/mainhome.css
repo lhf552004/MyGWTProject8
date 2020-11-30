@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+
+.jumbotron {
+  height: 50%;
+  background: url("/assets/img/logon.icon") no-repeat center center;
+  background-size: cover;
+}
